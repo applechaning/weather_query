@@ -5,7 +5,6 @@ import redis
 import pymysql
 
 print('Loading function')
-print('test')
 apikey = "mxHDufXzNoqATQJT6xGEoxajC6fhHv7A"
 pool = redis.ConnectionPool(host='13.211.204.107', port=6379, decode_responses=True)
 r = redis.Redis(connection_pool=pool)
